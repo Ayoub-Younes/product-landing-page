@@ -1,0 +1,166 @@
+*{
+  box-sizing:border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+@media (min-width:500px){
+  #navbar {
+    font-size: 1.2em;
+  }
+}
+
+
+
+header{
+  width:100%;
+  display:flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content:space-between;
+  padding: 0 4em;
+  background-color: #fafafa;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+img{
+  top:-5px;
+  width:200px;
+  height:100px;
+}
+
+/**/
+#nav-bar {
+  display: flex;
+}
+/**/
+
+#nav-bar ul {
+  display: flex;
+  list-style: none;
+  justify-content:space-between;
+}
+
+#nav-bar ul li {
+  display: flex;
+  margin-left: 2em
+}
+
+#nav-bar ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.content-wrapper {
+  padding-top: 120px;
+}
+
+.intro-content{
+  text-align: center;
+  margin-top: 2em;
+}
+
+.tagline {
+  margin-bottom: 1em;
+  color: #333;
+}
+
+#form {
+  margin-top: 1em;
+}
+
+#form input{
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+#form #email{
+  width: 250px
+}
+
+#form #submit{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  width: auto
+}
+
+#form #submit:hover{
+  background-color: #45a049;
+}
+
+
+.main-content section {
+  margin-top: 2em;
+  padding: 2em;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.list {
+  flex: 1;
+  list-style: none;
+  padding-left: 0;
+}
+
+.product-visuals {
+  flex: 1;
+  text-align: center;
+}
+
+.product-visuals img {
+  max-width: 100%;
+  margin-bottom: 1em;
+  border-radius: 5px;
+}
+
+.use-cases, .about-us{
+  display: flex;
+  flex: wrap;
+}
+
+.use-cases div{
+  margin-left: 1em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  flex:1
+}
+
+
+.about-us iframe { 
+  width: 500px;
+  border-radius: 5px;
+  display: block;
+  margin-left: 1em;
+}
+
+#footer {
+  background-color: #333;
+  color: #fff;
+  padding: 2em 1em;
+  text-align: center;
+}
+
